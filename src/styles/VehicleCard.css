@@ -1,0 +1,66 @@
+.vehicle_card {
+    background: #1b1b1b;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s ease;
+    border: 1px solid #2a2a2a;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vehicle_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.15);
+    border-color: #ff3c00;
+}
+
+.vehicle_card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.vehicle_card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.vehicle_card p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.old_price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.new_price {
+    color: #ff3c00;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.vehicle_card button {
+    margin-top: auto;
+    padding: 10px;
+    background: #ff3c00;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.vehicle_card button:hover {
+    background: #ff5a2a;
+}
