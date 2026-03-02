@@ -9,5 +9,5 @@ root.render(
     <BrowserRouter basename="/vehicle-catalog">
       <App />
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 );
