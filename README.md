@@ -29,23 +29,23 @@ This project demonstrates component-based architecture, routing, state managemen
 
 ## 🚀 Getting Started
 
-### 1️⃣ Install dependencies
+1️⃣ Install dependencies
 
 ```bash
 npm install
 
-### 2️⃣ Run development server
+2️⃣ Run development server
 
 ```bash
 npm run dev
 
-### 3️⃣ Build for production
+3️⃣ Build for production
 
 ```bash
 npm run build
 
 
-### 4️⃣ Preview production build
+4️⃣ Preview production build
 
 ```bash
 npm run preview
